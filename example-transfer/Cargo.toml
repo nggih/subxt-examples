@@ -1,0 +1,12 @@
+[package]
+name = "example-transfer"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+parity-scale-codec.workspace = true
+scale-info.workspace = true
+ss58-registry.workspace = true
+subxt.workspace = true
+tokio.workspace = true

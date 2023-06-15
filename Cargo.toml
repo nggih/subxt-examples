@@ -1,0 +1,18 @@
+[patch.crates-io]
+ss58-registry = { git = "https://github.com/goro-network/ss58-registry", rev = "984cc02" }
+
+[workspace]
+members = ["example-contract", "example-transfer"]
+
+[workspace.package]
+version = "1.0.0-alpha.6"
+edition = "2021"
+license-file = "LICENSE"
+
+[workspace.dependencies]
+anyhow = "1.0.71"
+parity-scale-codec = "3.5.0"
+scale-info = "2.7.0"
+ss58-registry = { git = "https://github.com/goro-network/ss58-registry", rev = "984cc02", default-features = false }
+subxt = "0.29.0"
+tokio = { version = "1.28.2", features = ["full"] }

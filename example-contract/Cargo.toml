@@ -1,0 +1,14 @@
+[package]
+name = "example-contract"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+contract-metadata = "3.0.1"
+contract-transcode = "3.0.1"
+parity-scale-codec.workspace = true
+scale-info.workspace = true
+ss58-registry.workspace = true
+subxt.workspace = true
+tokio.workspace = true
