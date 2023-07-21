@@ -21,7 +21,6 @@ pub struct Weight {
     proof_size: u64,
     ref_time: u64,
 }
-
 #[derive(Encode)]
 pub struct ContractCallEnvelope {
     origin: AccountId32,
